@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
 # whitelisted app
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    $(LOCAL_PATH)/configs/platform.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/platform.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-android.xml:$(TARGET_COPY_OUT_SYSTEM)/product/etc/permissions/privapp-permissions-android.xml
 
@@ -221,6 +222,24 @@ PRODUCT_PACKAGES += \
     android.hardware.automotive.vehicle@2.0-manager-lib
 
 # Bluetooth
+PRODUCT_PACKAGES += \
+    com.qualcomm.qti.bluetooth_audio@1.0 \
+    liba2dpoffload \
+    libbtconfigstore \
+    libbthost_if \
+    libbt-hidlclient \
+    libbt-logClient \
+    vendor.qti.hardware.btconfigstore@1.0 \
+    android.hardware.bluetooth@1.0 \
+    android.hardware.bluetooth.a2dp@1.0 \
+    android.hardware.bluetooth.audio@2.0 \
+    android.hardware.bluetooth.audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.0 \
+    vendor.qti.hardware.bluetooth_dun-V1.0-java \
+    vendor.qti.hardware.bluetooth_dun@1.0 \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.btconfigstore@1.0.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/bluetooth/bt_profile.conf:system/etc/bluetooth/bt_profile.conf \
     $(LOCAL_PATH)/configs/bluetooth/bt_configstore.conf:system/etc/bluetooth/bt_configstore.conf \
@@ -486,6 +505,7 @@ PRODUCT_PACKAGES += \
     init.qti.ims.sh \
     init.qti.fm.sh \
     init.qti.fm.rc \
+    vold.fstab \
     fstab.qcom \
     init.msm.usb.configfs.rc \
     init.qcom.rc \
@@ -554,7 +574,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
     av.debug.disable.pers.cache=1 \
     ro.config.media_vol_default=10 \
-    vendor.mm.enable.qcom_parser=37748735 \
+    vendor.mm.enable.qcom_parser=16760831 \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0 \
     vendor.vidc.enc.disable_bframes=1 \
@@ -676,7 +696,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service \
+    android.hardware.power@1.2-service.markw \
     android.hardware.power.stats@1.0-service.mock
     
 PRODUCT_COPY_FILES += \
@@ -721,7 +741,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.sib16_support=1 \
     ril.subscription.types=NV,RUIM \
     persist.vendor.data.mode=concurrent \
-    persist.sys.fflag.override.settings_network_and_internet_v2=true \
     rild.libargs=-d/dev/smd0 \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.telephony.call_ring.multiple=false \

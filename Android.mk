@@ -65,8 +65,8 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 
 FIRMWARE_MOUNT_POINT := $(TARGET_OUT_VENDOR)/firmware_mnt
 DSP_MOUNT_POINT := $(TARGET_OUT_VENDOR)/dsp
-PERSIST_MOUNT_POINT := $(TARGET_ROOT_OUT)/persist
-
+ALL_DEFAULT_INSTALLED_MODULES += $(FIRMWARE_MOUNT_POINT) \
+				 $(DSP_MOUNT_POINT)
 $(FIRMWARE_MOUNT_POINT):
 	@echo "Creating $(FIRMWARE_MOUNT_POINT)"
 	@mkdir -p $(TARGET_OUT_VENDOR)/firmware_mnt
@@ -76,11 +76,6 @@ $(DSP_MOUNT_POINT):
 	@mkdir -p $(TARGET_OUT_VENDOR)/dsp
 
 $(shell mkdir -p $(TARGET_OUT_VENDOR)/lib/dsp)
-
-$(PERSIST_MOUNT_POINT):
-	@echo "Creating $(PERSIST_MOUNT_POINT)"
-
-ALL_DEFAULT_INSTALLED_MODULES += $(FIRMWARE_MOUNT_POINT) $(DSP_MOUNT_POINT) $(PERSIST_MOUNT_POINT)
 
 IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
 
@@ -141,6 +136,13 @@ $(RFS_MSM_SLPI_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /vendor/firmware $@/readonly/vendor/firmware
 
 ALL_DEFAULT_INSTALLED_MODULES += $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS)
+
+#########################################################################
+# Create Folder Structure
+#########################################################################
+TARGET_OUT_FIRMWARE="/vendor/firmware_mnt"
+
+$(shell rm -rf $(TARGET_OUT_VENDOR)/rfs/)
 
 #########################################################################
 # capabilityconfigstore

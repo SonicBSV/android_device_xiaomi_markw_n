@@ -166,7 +166,7 @@ TARGET_EXFAT_DRIVER := sdfat
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
-#DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Init
@@ -200,7 +200,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 TARGET_PER_MGR_ENABLED := true
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
 TARGET_USES_INTERACTION_BOOST := true
 
 # RIL
@@ -216,14 +215,15 @@ TARGET_USE_SDCLANG := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_VERS := 29.0
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Telephony
-#TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
+TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
+PRODUCT_WANTS_QTI_SIM_SETTINGS := true
 
 # Treble
 #ENABLE_VENDOR_IMAGE := true
@@ -242,7 +242,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 #BOARD_VNDK_VERSION := current
 
 # Wifi
-BOARD_HAS_QCOM_WLAN := true
+#BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
