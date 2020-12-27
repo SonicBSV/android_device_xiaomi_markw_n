@@ -55,9 +55,12 @@ endif
 
 #USE_DISPLAY_SERVICE from Android O onwards
 #to receive vsync event from display
-ifeq ($(call is-platform-sdk-version-at-least,26),true)
+ifeq ($(filter OMR1 O 8.1.0, $(PLATFORM_VERSION)), )
 USE_DISPLAY_SERVICE := true
 LOCAL_CFLAGS += -DUSE_DISPLAY_SERVICE
+LOCAL_CFLAGS += -std=c++11 -std=gnu++1y
+else
+LOCAL_CFLAGS += -std=c++11 -std=gnu++0x
 endif
 
 #HAL 1.0 Flags
@@ -71,8 +74,8 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/stack/mm-camera-interface/inc \
         $(LOCAL_PATH)/util \
         $(LOCAL_PATH)/HAL3 \
-        hardware/qcom/media-caf/msm8996/libstagefrighthw \
-        hardware/qcom/media-caf/msm8996/mm-core/inc \
+        $(call project-path-for,qcom-media)/libstagefrighthw \
+        $(call project-path-for,qcom-media)/mm-core/inc \
         $(TARGET_OUT_HEADERS)/mm-camera-lib/cp/prebuilt
 
 LOCAL_HEADER_LIBRARIES := media_plugin_headers
@@ -104,19 +107,18 @@ endif
 LOCAL_C_INCLUDES += \
         $(TARGET_OUT_HEADERS)/qcom/display
 LOCAL_C_INCLUDES += \
-        hardware/qcom/display-caf/msm8996/libqservice
+        $(call project-path-for,qcom-display)/libqservice
 LOCAL_SHARED_LIBRARIES := liblog libhardware libutils libcutils libdl libsync
 LOCAL_SHARED_LIBRARIES += libmmcamera_interface libmmjpeg_interface libui libcamera_metadata
 LOCAL_SHARED_LIBRARIES += libqdMetaData libqservice libbinder
 ifeq ($(USE_DISPLAY_SERVICE),true)
-LOCAL_SHARED_LIBRARIES += android.frameworks.displayservice@1.0 libhidlbase libhidltransport
+LOCAL_SHARED_LIBRARIES += android.frameworks.displayservice@1.0 android.frameworks.sensorservice@1.0 android.hidl.base@1.0 libhidlbase
 else
 LOCAL_SHARED_LIBRARIES += libgui
 endif
 ifeq ($(TARGET_TS_MAKEUP),true)
 LOCAL_SHARED_LIBRARIES += libts_face_beautify_hal libts_detected_face_hal
 endif
-LOCAL_HEADER_LIBRARIES += media_plugin_headers
 
 LOCAL_STATIC_LIBRARIES := android.hardware.camera.common@1.0-helper
 

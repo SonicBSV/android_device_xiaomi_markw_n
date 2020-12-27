@@ -11,7 +11,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product,  device/xiaomi/markw/device.mk)
 
 # Google Apps
-#$(call inherit-product, vendor/gapps/gapps.mk)
+$(call inherit-product, vendor/gapps/gapps.mk)
 
 # Boot animation
 TARGET_ARCH := arm64
