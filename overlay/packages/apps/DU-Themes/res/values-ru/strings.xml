@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Темы</string>
+    <!-- Footer -->
+    <string name="schedule_footer_info">При настройке расписания всегда устанавливайте время первого расписания на текущее время.\n\nНапример:\nЕсли текущее время составляет 16:00 и вы хотите установить график с 18:00 до 18:00, первый шаблон будет установлен в 18:00, а второй - в 18:00.</string>
+    <!-- Accent Picker -->
+    <string name="accent_picker_dialog_title">Выбрать акцент</string>
+    <string name="theme_accent_picker_title">Цвет акцента</string>
+    <string name="theme_accent_picker_summary">Выберите цвет акцента темы</string>
+    <string name="theme_accent_picker_default">По умолчанию</string>
+    <string name="accent_picker_stock_colors">Стандартная</string>
+    <string name="accent_picker_custom_colors">Своя</string>
+    <string name="accent_picker_brand_colors">Марка</string>
+    <string name="rgb_accent_picker_title">Выбор акцента RGB</string>
+    <string name="rgb_accent_picker_summary">Цвет акцента выбирайте сами</string>
+
+    <!-- Navbar Picker -->
+    <string name="theme_navbar_picker_title">Стиль панели навигации</string>
+    <string name="theme_navbar_picker_summary">Выберать стиль панели навигации</string>
+    <string name="theme_navbar_picker_oneplus">OnePlus</string>
+    <string name="theme_navbar_picker_oneui">One UI</string>
+    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
+    <string name="theme_navbar_picker_asus">ASUS</string>
+    <!-- Dark theme -->
+    <string name="dark_theme_title">Тёмная тема</string>
+    <!-- Fonts -->
+    <string name="font_type_title">Тип шрифта</string>
+    <string name="font_type_summary">Выбрать тип шрифта</string>
+    <string name="font_type_default">По умолчанию</string>
+    <!-- Adaptive icon shapes -->
+    <string name="adaptive_icon_shape_default">По умолчанию</string>
+    <string name="adaptive_icon_shape_teardrop">Капля</string>
+    <string name="adaptive_icon_shape_squircle">Скруглённый квадрат</string>
+    <string name="adaptive_icon_shape_roundedrect">Скруглённый прямоугольник</string>
+    <string name="adaptive_icon_shape_title">Форма значка</string>
+    <string name="adaptive_icon_shape_dialog_title">Выбрать форму значка</string>
+    <!-- Statusbar icons -->
+    <string name="statusbar_icons_default">По умолчанию</string>
+    <string name="statusbar_icons_filled">Заполненные</string>
+    <string name="statusbar_icons_rounded">Скруглённые</string>
+    <string name="statusbar_icons_circular">Круговые</string>
+    <string name="statusbar_icons_title">Значки строки состояния</string>
+    <string name="statusbar_icons_dialog_title">Выбрать набор значков в строке состояния</string>
+    <!-- Accents -->
+    <string name="accent_colors_space">Космос</string>
+    <string name="accent_colors_purple">Фиолетовый</string>
+    <string name="accent_colors_orchid">Орхидея</string>
+    <string name="accent_colors_ocean">Океан</string>
+    <string name="accent_colors_green">Зеленый</string>
+    <string name="accent_colors_cinnamon">Корица</string>
+    <string name="accent_colors_amber">Янтарный</string>
+    <string name="accent_colors_blue">Синий</string>
+    <string name="accent_colors_bluegrey">Серо-голубой</string>
+    <string name="accent_colors_brown">Коричневый</string>
+    <string name="accent_colors_cyan">Бирюзовый</string>
+    <string name="accent_colors_deeporange">Темно-оранжевый</string>
+    <string name="accent_colors_deeppurple">Темно-фиолетовый</string>
+    <string name="accent_colors_grey">Серый</string>
+    <string name="accent_colors_indigo">Индиго</string>
+    <string name="accent_colors_lightblue">Голубой</string>
+    <string name="accent_colors_lightgreen">Салатовый</string>
+    <string name="accent_colors_lime">Лаймовый</string>
+    <string name="accent_colors_orange">Оранжевый</string>
+    <string name="accent_colors_pink">Розовый</string>
+    <string name="accent_colors_red">Красный</string>
+    <string name="accent_colors_teal">Морской волны</string>
+    <string name="accent_colors_yellow">Желтый</string>
+    <!-- Themes -->
+    <string name="theme_type_title">Тема системы</string>
+    <string name="theme_type_summary">Выбрать тему</string>
+    <string name="theme_type_light">Светлая</string>
+    <string name="theme_type_google_dark">Тёмный Google</string>
+    <string name="theme_type_pitch_black">Тёмно-чёрный</string>
+    <string name="theme_type_solarized_dark">Соляризованный темный</string>
+    <string name="theme_type_choco_x">Чёрный кофе</string>
+    <string name="theme_other_category_title">Другое</string>
+    <string name="theme_backup_title">Бэкап темы</string>
+    <string name="theme_backup_summary">Сохраните свою текущую конфигурацию темы</string>
+    <string name="theme_backup_reach_limit_summary">Достигнут предел бэкапа</string>
+    <string name="theme_restore_title">Восстановить тему</string>
+    <string name="theme_restore_summary">Восстановить сохраненную конфигурацию темы</string>
+    <string name="theme_restore_no_backup_summary">Нет доступных бэкапов</string>
+    <string name="theme_restore_popup_title">Проведите по горизонтали для просмотра бэкапов</string>
+    <string name="theme_name_exist_warning">Это имя бэкапа уже существует. Введите новое имя.</string>
+    <string name="theme_rename_dialog_title">Переименовать тему</string>
+    <string name="theme_button_apply_theme">Применить тему</string>
+    <string name="theme_button_delete_theme">Удалить тему</string>
+    <string name="theme_switch_persistent_title">Состояние постоянных переключателей</string>
+    <string name="theme_switch_restore_theme_color">Тема интерфейса</string>
+    <string name="theme_switch_restore_accent_color">Цвет акцента</string>
+    <string name="theme_switch_restore_font_type">Тип шрифта</string>
+    <string name="theme_switch_restore_adaptative_icons">Адаптивные значки</string>
+    <string name="theme_switch_restore_sb_icons">Значки строки состояния</string>
+    <string name="theme_switch_restore_navbar">Панель навигации</string>
+    <string name="theme_switch_restore_wallpaper">Фоновый рисунок</string>
+    <string name="theme_backup_edittext_hint">Бэкап_</string>
+    <string name="theme_backup_dialog_title">Обнаружены живые обои</string>
+    <string name="theme_backup_dialog_message">Похоже, что у вас применены живые обои.\n\nПожалуйста, обратите внимание, что эти живые обои не будут сохранены. Вместо этого будет сделан бэкап обоев по умолчанию.</string>
+    <string name="theme_reset_dialog_title">Сбросить настройки темы</string>
+    <string name="theme_reset_dialog_message">Все параметры темы будут сброшены к настройкам по умолчанию. Это не затронет расписание.</string>
+    <string name="theme_reset_toast">Настройки темы по умолчанию</string>
+    <!-- Theme schedule -->
+    <string name="theme_schedule_title">Расписание</string>
+    <string name="theme_schedule_summary">Установить график для системных тем</string>
+    <string name="theme_schedule_dyn_summary">тема запланирована</string>
+    <string name="theme_schedule_theme_title">Запланировать тему</string>
+    <string name="theme_schedule_theme_summary">Выберать тему для расписания</string>
+    <string name="theme_schedule_none">Нет</string>
+    <string name="theme_schedule_custom_time">Включает в свое время</string>
+    <string name="theme_schedule_applied">тема применена</string>
+    <string name="theme_schedule_start_scheduled">тема начинается в</string>
+    <string name="theme_schedule_repeat_title">Повторить расписание</string>
+    <string name="theme_schedule_repeat_summary">Повторяет график дня</string>
+    <string name="theme_schedule_toasts_title">Показывать всплывающие уведомления</string>
+    <string name="theme_schedule_toasts_summary">Показывать всплывающие сообщения при запуске запланированных тем</string>
+
+    <!-- QS tile styles -->
+    <string name="theme_qsstyle_picker_title">Стиль плитки панели быстрых настроек</string>
+    <string name="theme_qsstyle_picker_summary">Выберите стиль плитки панели быстрых настроек</string>
+    <string name="qstile_default">По умолчанию</string>
+    <string name="qstile_circle_trim">Круг с внутренней отделкой</string>
+    <string name="qstile_dual_tone_circle">Двухцветный круг</string>
+    <string name="qstile_squircle_trim">Скруглённый квадрат с внутренней отделкой</string>
+    <string name="qstile_attempt_mountain">Гора</string>
+    <string name="qstile_cosmos">Космос</string>
+    <string name="qstile_dotted_circle">Пунктирный круг</string>
+    <string name="qstile_ninja">Ниндзя</string>
+    <string name="qstile_poke_sign">Poke Sign</string>
+    <string name="qstile_wavey">Wavey</string>
+
+</resources>

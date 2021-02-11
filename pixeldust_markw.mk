@@ -11,7 +11,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product,  device/xiaomi/markw/device.mk)
 
 # Google Apps
-$(call inherit-product, vendor/gapps/gapps.mk)
+#$(call inherit-product, vendor/gapps/gapps.mk)
 
 # Boot animation
 TARGET_ARCH := arm64
@@ -37,8 +37,7 @@ TARGET_VENDOR := Xiaomi
 TARGET_VENDOR_PRODUCT_NAME := markw
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="markw-user 6.0.1 MMB29M V10.2.2.0.MBEMIXM release-keys" \
-    DEVICE_MAINTAINERS="SonicBSV"
+    PRIVATE_BUILD_DESC="markw-user 6.0.1 MMB29M V10.2.2.0.MBEMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Xiaomi/markw/markw:6.0.1/MMB29M/V10.2.2.0.MBEMIXM:user/release-keys
@@ -52,6 +51,10 @@ include vendor/pixeldust/configs/pixeldust_phone.mk
 # Include optional stuff (e.g. prebuilt apps)
 include vendor/pixeldust/configs/system_optional.mk
 
-#PRODUCT_PACKAGES += \
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.pixeldust.maintainer="SonicBSV" \
+    ro.pixeldust.device="markw"
+
+PRODUCT_PACKAGES += \
     Mms \
     Messaging

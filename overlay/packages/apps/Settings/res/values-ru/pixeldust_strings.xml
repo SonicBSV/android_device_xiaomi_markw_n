@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 The PixelDust Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- PixelDust Settings strings -->
+    <string name="pixeldust_settings_title">Настройки PixelDust</string>
+    <string name="pixeldust_settings_summary">Особенности Рома и персонализация</string>
+
+    <!-- PixelDust version-->
+    <string name="pd_version">Версия Pixe1dust</string>
+    <string name="pd_version_default">Неизвестно</string>
+
+    <!-- PixelDust build date-->
+    <string name="pd_build_date">Дата сборки</string>
+    <string name="pd_build_date_default">2017-08-01-0000</string>
+
+    <string name="pixeldust_extras_qs_title">Быстрые настройки</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного PIN-кода / пароля</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Цвет света</string>
+    <string name="custom_light_on_time_title">Время включения света во время импульса светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Время выключения света во время импульса светодиода (мс)</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Изменения</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удалось загрузить журнал изменений</string>
+
+    <!-- PD Updater -->
+    <string name="pd_updater_summary">Проверьте, доступна ли новая версия для вашего устройства</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика истории батареи будет сброшена</string>
+
+    <!-- Ambient display battery percentage --> 
+    <string name="ambient_battery_percent_title">Уровень заряда внизу</string> 
+    <string name="ambient_battery_percent_summary">Включите, чтобы показывать процент заряда батареи во время сна</string>
+
+    <!-- Disable dashboards conditions and suggestions -->
+    <string name="dashboard_conditions_title">Условия панели инструментов</string>
+    <string name="summary_dashboard_conditions_enabled">Условия панели инструментов включены</string>
+    <string name="summary_dashboard_conditions_disabled">словия панели инструментов отключены</string>
+    <string name="dashboard_suggestions_title">Предложения на панели инструментов</string>
+    <string name="summary_dashboard_suggestions_enabled">Предложения на панели инструментов включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Предложения на панели инструментов отключены</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Проведите по экрану</string>
+    <string name="swipe_to_screenshot_summary">Проведите тремя пальцами вниз по экрану, чтобы сделать снимок экрана.</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
+    <string name="smart_charging_switch_title">Включить умную зарядку</string>
+    <string name="smart_charging_level_title">Уровень ограничения</string>
+    <string name="smart_charging_resume_level_title">Уровень начала запуска</string>
+    <string name="smart_charging_reset_stats_title">Сброс статистики батареи</string>
+    <string name="smart_charging_reset_stats_summary">Сброс статистики батареи после достижения определенного пользователем уровня зарядки</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень зарядки, чтобы продлить срок службы вашей батареи</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Температура батареи</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать пространство выреза экрана</string>
+
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Горизонтальный свайп по сканеру отпечатка для скрытия уведомлений</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы скрыть уведомления, проведите влево или вправо по сканеру отпечатка пальца.</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Пропускать музыкальные треки</string>
+    <string name="volume_skiptrack_title">Пропускать треки кнопками громкости</string>
+    <string name="volume_skiptrack_summary">Длительное нажатие кнопки громкости для пропуска треков при воспроизведении музыки, даже удаленно на ТВ или ПК, например, с Spotify (приложение должно работать на телефоне и показывать уведомления).</string>
+
+    <string name="ambient_wake_gestures_title">Жесты Ambient</string>
+    <string name="ambient_wake_gestures_summary">Показывать Ambient Display вместо обычного лоскрина при пробуждении</string>
+
+    <string name="pulse_on_new_tracks_title">Текущий трек</string>
+    <string name="pulse_on_new_tracks_summary">Пробуждать экран при воспроизведении новой музыки</string>
+
+    <string name="ambient_music_location">Показать тикер Ambient-музыки</string>
+    <string name="ambient_music_disabled">Отключено</string>
+    <string name="ambient_music_bottom">Сверху (по умолчанию)</string>
+    <string name="ambient_music_center">В центре (под часами)</string>
+
+    <string name="ambient_indication_transparent_bgcolor_title">Прозрачный фон нижнего тикера Ambient-музыки</string>
+    <string name="ambient_indication_transparent_bgcolor_summary">Используйте прозрачный фон для нижнего тикера Ambient-музыки</string>
+
+    <string name="lockscreen_display_title">Экран блокировки</string>
+
+    <!-- Themes -->
+    <string name="du_themes_title">Темы</string>
+    <string name="du_themes_summary">Измените внешний вид вашего устройства</string>
+
+    <!-- Customize your device -->
+    <string name="custom_style_suggestion_title">Настройте свое устройство</string>
+    <string name="custom_style_suggestion_summary">Попробуйте разные темы, шрифты и многое другое</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Частота обновления экрана</string>
+    <string name="refresh_rate_summary_auto">Авто / Автоматически увеличивает частоту обновления с 60 до 90 Гц для некоторого контента.</string>
+    <string name="refresh_rate_summary_60">60 Гц / частота обновления заблокирована на 60 Гц для всего контента</string>
+    <string name="refresh_rate_summary_90">90 Гц / частота обновления заблокирована на 90 Гц для всего контента. Увеличенное использование батареи</string>
+    <string name="auto_refresh_rate">Авто</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Дополнительные жесты</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и настройка пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
+    <string name="long_back_swipe_timeout_title">Таймаут для длинного свайпа</string>
+    <string name="left_swipe_actions_title">Действие для длинного свайпа влево</string>
+    <string name="left_swipe_app_action_title">Выберите приложение для длинного свайпа влево</string>
+    <string name="right_swipe_actions_title">Действие для длинного свайпа вправо</string>
+    <string name="right_swipe_app_action_title">Выберите приложение для длинного свайпа вправо</string>
+    <string name="left_vertical_swipe_actions_title">Действие на вертикальный свайп слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп слева</string>
+    <string name="right_vertical_swipe_actions_title">Действие на вертикальный свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать приложение на действие, удерживайте нажатие на любом приложении в меню выбора приложений.\n\nВ лончере выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Действие на расширенный свайп</string>
+    <string name="back_swipe_extended_summary">Запуск действия на широкий свайп (более чем на половину экрана), или L-свайп (существенно длиннее по вертикали)</string>
+    <string name="gesture_navbar_browser_action_title">Страница просмотра браузера </string>
+    <string name="gesture_navbar_browser_action_summary">Когда браузер по умолчанию запущен, расширенное смахивание влево запускает действие «Переслать страницу».</string>
+
+    <!-- Hotspot lineage extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-подключения этого устройства</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук снимка экрана</string>
+
+    <!-- Less boring heads up option -->
+    <string name="less_boring_heads_up_title">Менее надоедливые всплывающие уведомления</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонков, сообщений и будильника</string>
+
+    <!-- Allow to show music heads up on new tracks -->
+    <string name="show_media_heads_up_title">Всплывающее уведомление мультимедиа</string>
+    <string name="show_media_heads_up_summary">Показывать заголовки мультимедиа при воспроизведении нового трека, если игрок еще не на переднем плане</string>
+
+    <!-- Allow to suppress notifications sound/vibration if screen is ON -->
+    <string name="notification_sound_vib_screen_on_title">Уведомления при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Выключите, чтобы отключить звук и вибрацию уведомлений при включеном экране</string>
+
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Управляет чувствительностью касания при повторных нажатиях</string>
+    <string name="touch_sensitivity_title">Чувствительность сенсора</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Настроить жесты</string>
+    <string name="back_gesture_sensitivity_dialog_message">Более высокая чувствительность может конфликтовать с жестами приложения по краям экрана.</string>
+    <string name="back_gesture_area_dead_zone_title">Мёртвая зона для жеста назад</string>
+    <string name="back_gesture_area_dead_zone_message">Определите область экрана, в которой может запускаться смахивание. Это помогает избежать конфликтов с жестами в приложении.</string>
+    <string name="smallest_tick_label">Полный экран</string>
+    <string name="greatest_tick_label">Половина экрана</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Найдите датчик отпечатка пальцев <xliff:g id="sensor_location">%1$s</xliff:g> вашего планшета</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Найдите датчик отпечатка пальцев <xliff:g id="sensor_location">%1$s</xliff:g> вашего устройства</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Найдите датчик отпечатка пальцев <xliff:g id="sensor_location">%1$s</xliff:g> вашем телефоне</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">на задней стороне</string>
+    <string name="security_settings_fingerprint_sensor_location_front">на лицевой стороне</string>
+    <string name="security_settings_fingerprint_sensor_location_left">на левой грани</string>
+    <string name="security_settings_fingerprint_sensor_location_right">на правой грани</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данные</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Отладка Андроид через root</string>
+    <string name="adb_enable_summary_root">Включить отладку Android через root</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Закрыть</string>
+
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">Играть мелодию вызова через</string>
+    <string name="ringtone_focus_mode_dynamic">Наушники, при включенной музыке</string>
+    <string name="ringtone_focus_mode_stock">Динамик (по умолчанию)</string>
+
+    <!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">Аудиокодек Bluetooth (предпочтительный)</string>
+
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD</string>
+    <string name="sbc_hd_priority_summary">Использовать двухканальный режим для SBC кодека по умолчанию</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Автоповорот</string>
+    <string name="display_rotation_summary">Настроить функции автоповорота экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- Data usage -->
+    <string name="data_usage_period">Интервал статистики</string>
+    <string name="data_usage_daily">Ежедневный</string>
+    <string name="data_usage_monthly">Ежемесячный</string>
+
+    <!-- Back gesture settings -->
+    <string name="back_gesture_arrow_title">Анимация жеста "Назад"</string>
+    <string name="back_gesture_arrow_message">Скрыть стрелку жеста "Назад"</string>
+
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Проведите вверх для разблокировки</string>
+    <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану блокировки для использования разблокировки по лицу</string>
+
+</resources>

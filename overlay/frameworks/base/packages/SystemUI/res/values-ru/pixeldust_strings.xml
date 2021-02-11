@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 The PixelDust Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- PixelDust Settings Tile -->
+    <string name="quick_settings_pixeldust_label">Настройки PixelDust</string>
+
+    <string name="statusbar_items_title">Редактирование иконок</string>
+    <string name="lockscreen_default">По умолчанию</string>
+    <string name="lockscreen_hidden">Нет</string>
+
+    <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+    <string name="custom_hint">Проведите пальцем от иконки в сторону центра экрана</string>
+
+    <!-- Power Menu -->
+    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="global_action_reboot_more">Перезагрузка\u2026</string>
+    <string name="global_action_reboot_sub">Система</string>
+    <string name="global_action_reboot_recovery">Рекавери</string>
+    <string name="global_action_reboot_bootloader">Загрузчик</string>
+    <string name="global_action_dismissable_dialog_text">Расширенная перезагрузка отключена.\nВы хотите перезагрузить\u003f</string>
+    <string name="global_action_dnaa">Не показывать снова</string>
+    <string name="global_action_settings">Настройки</string>
+    <string name="global_action_restart_sysui">SystemUI</string>
+
+    <!-- QS Config -->
+    <string name="qs_menu_item_columns">Столбцы</string>
+    <string name="qs_menu_item_columns_landscape">Столбцы в ландш.</string>
+    <string name="qs_menu_item_rows">Кол-во рядов</string>
+    <string name="qs_menu_item_rows_landscape">Кол-во рядов в ландш.</string>
+    <string name="qs_menu_item_columns_one">1</string>
+    <string name="qs_menu_item_columns_two">2</string>
+    <string name="qs_menu_item_columns_three">3</string>
+    <string name="qs_menu_item_columns_four">4</string>
+    <string name="qs_menu_item_columns_five">5</string>
+    <string name="qs_menu_item_columns_six">6</string>
+    <string name="qs_menu_item_columns_seven">7</string>
+    <string name="qs_menu_item_columns_eight">8</string>
+    <string name="qs_menu_item_columns_nine">9</string>
+    <string name="qs_menu_item_reset">Сброс</string>
+    <string name="qs_menu_item_titles">Отображать подписи</string>
+    <string name="qs_menu_item_qs_columns">Кол-во мал. плиток</string>
+    <string name="qs_menu_item_columns_auto">Авто</string>
+
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Звук</string>
+    <string name="quick_settings_sound_ring">Звонок</string>
+    <string name="quick_settings_sound_vibrate">Вибрация</string>
+    <string name="quick_settings_sound_dnd">Не беспокоить</string>
+
+    <!-- Caffeine QS Tile -->
+    <string name="quick_settings_caffeine_label">Кофеин</string>
+    <string name="accessibility_quick_settings_caffeine_off">Кофеин откл.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Кофеин вкл.</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">Снимок экрана</string>
+    <string name="quick_settings_region_screenshot_label">Снимок области экрана</string>
+    <string name="delete_screenshot_toast">Снимок экрана удалён</string>
+
+    <!-- HW Keys Tile -->
+    <string name="accessibility_quick_settings_hwkeys_on">Аппаратные кнопки включены</string>
+    <string name="accessibility_quick_settings_hwkeys_off">Аппаратные кнопки отключены</string>
+    <string name="quick_settings_hwkeys_label">Аппаратные кнопки</string>
+
+    <!-- Screenrecord Powermenu -->
+    <string name="global_action_screenrecord">Запись экрана</string>
+
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Отображать 4G вместо LTE</string>
+    <string name="show_fourg_summary">Заменяет индикатор LTE на 4G</string>
+
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">Значок VoLTE</string>
+    <string name="volte_switch_summary">Отображать значок VoLTE</string>
+
+    <!-- VoWiFi switch -->
+    <string name="vowifi_switch_title">Значок VoWiFi</string>
+    <string name="vowifi_switch_summary">Отображать значок VoWiFi</string>
+
+    <!-- Name of the nfc status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+    <!-- Accessibility label for nfc icon (not shown on screen) [CHAR LIMIT=NONE] -->
+    <string name="accessibility_status_bar_nfc">Nfc</string>
+
+    <string name="status_bar_data_saver">Экономия трафика</string>
+    <string name="status_bar_vpn">VPN</string>
+    <string name="status_bar_roaming">Роуминг</string>
+
+    <!-- Language toggle tile -->
+    <string name="quick_settings_locale_label">Язык</string>
+    <string name="quick_settings_locale_more_locales_toast">Настройте несколько языков, чтобы включить функцию переключения.</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Показывать значок отключённой передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крест над значком сети, когда передача данных отключена</string>
+
+    <!-- Caffeine tile -->
+    <string name="caffeine_info_title">Что это?</string>
+    <string name="caffeine_info_message">Плитка с кофеином - это простая плитка, которую можно включить, чтобы экран оставался включенным.\n\nОбратите внимание, что состояние плитки сбрасывается само после выключения экрана.</string>
+
+    <!-- Always on Display Tile -->
+    <string name="quick_settings_always_on_display_label">Always on display</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD выключен\nЭкономия батареи</string>
+    <string name="accessibility_quick_settings_always_on_display_off">Always on display выкл.</string>
+    <string name="accessibility_quick_settings_always_on_display_on">Always on display вкл.</string>
+    <string name="accessibility_quick_settings_always_on_display_changed_off">Always on display выключен.</string>
+    <string name="accessibility_quick_settings_always_on_display_changed_on">Always on display включён.</string>
+
+    <!-- Dynamic Immersive Mode tile -->
+    <string name="quick_settings_immersive_tile">Immersive mode</string>
+    <string name="quick_settings_immersive_tile_off">Immersive off</string>
+    <string name="quick_settings_immersive_tile_statusbar">Immersive statusbar</string>
+    <string name="quick_settings_immersive_tile_navbar">Immersive navbar</string>
+    <string name="quick_settings_immersive_tile_full">Immersive full</string>
+
+    <!-- Smartspace -->
+    <string name="smartspace_hours_mins">%1$s %2$s</string>
+    <string name="smartspace_now">Сейчас</string>
+    <string name="smartspace_pill_text_format">%1$s: %2$s</string>
+
+    <!-- Theme tile -->
+    <string name="system_theme_style_title">Тема</string>
+    <string name="system_theme_style_light">Светлая</string>
+    <string name="system_theme_style_dark">Тёмная Google</string>
+    <string name="system_theme_style_pitchblack">Черный как смоль</string>
+    <string name="system_theme_style_solarizeddark">Соляризованная тьма</string>
+    <string name="system_theme_style_chocox">Чёрный кофе</string>
+    <string name="quick_settings_theme_tile_title">Акцент</string>
+    <string name="quick_settings_theme_tile_accent_detail_title">Выбрать акцент</string>
+    <string name="quick_settings_theme_tile_style_detail_title">Выбрать тему</string>
+    <string name="quick_settings_theme_tile_color_default">По умолчанию</string>
+    <string name="quick_settings_theme_tile_color_space">Космос</string>
+    <string name="quick_settings_theme_tile_color_purple">Фиолетовый</string>
+    <string name="quick_settings_theme_tile_color_orchid">Орхидея</string>
+    <string name="quick_settings_theme_tile_color_ocean">Океан</string>
+    <string name="quick_settings_theme_tile_color_green">Зелёный</string>
+    <string name="quick_settings_theme_tile_color_cinnamon">Корица</string>
+    <string name="quick_settings_theme_tile_color_amber">Янтарь</string>
+    <string name="quick_settings_theme_tile_color_blue">Синий</string>
+    <string name="quick_settings_theme_tile_color_bluegrey">Серо-голубой</string>
+    <string name="quick_settings_theme_tile_color_brown">Коричневый</string>
+    <string name="quick_settings_theme_tile_color_cyan">Голубой</string>
+    <string name="quick_settings_theme_tile_color_deeporange">Глубокий оранжевый</string>
+    <string name="quick_settings_theme_tile_color_deeppurple">Глубокий фиолетовый</string>
+    <string name="quick_settings_theme_tile_color_grey">Серый</string>
+    <string name="quick_settings_theme_tile_color_indigo">Индиго</string>
+    <string name="quick_settings_theme_tile_color_lightblue">Светло-голубой</string>
+    <string name="quick_settings_theme_tile_color_lightgreen">Светло-зелёный</string>
+    <string name="quick_settings_theme_tile_color_lime">Лайм</string>
+    <string name="quick_settings_theme_tile_color_orange">Оранжевый</string>
+    <string name="quick_settings_theme_tile_color_pink">Розовый</string>
+    <string name="quick_settings_theme_tile_color_red">Красный</string>
+    <string name="quick_settings_theme_tile_color_teal">Бирюзовый</string>
+    <string name="quick_settings_theme_tile_color_yellow">Жёлтый</string>
+    <string name="quick_settings_theme_tile_color_androidonegreen">Android One Зелёный</string>
+    <string name="quick_settings_theme_tile_color_cocacolared">Coca-Cola Красный</string>
+    <string name="quick_settings_theme_tile_color_discordpurple">Discord Фиолетовый</string>
+    <string name="quick_settings_theme_tile_color_facebookblue">Facebook Синий</string>
+    <string name="quick_settings_theme_tile_color_instagramcerise">Instagram Вишня</string>
+    <string name="quick_settings_theme_tile_color_jollibeecrimson">Jollibee Малиновый</string>
+    <string name="quick_settings_theme_tile_color_monsterenergygreen">Monster Energy Зелёный</string>
+    <string name="quick_settings_theme_tile_color_nextbitmint">Next bit Мята</string>
+    <string name="quick_settings_theme_tile_color_oneplusred">One Plus Красный</string>
+    <string name="quick_settings_theme_tile_color_pepsiblue">Pepsi Синий</string>
+    <string name="quick_settings_theme_tile_color_pocophoneyellow">Pocophone Жёлтый</string>
+    <string name="quick_settings_theme_tile_color_razergreen">Razer Зелёный</string>
+    <string name="quick_settings_theme_tile_color_samsungblue">Samsung Синий</string>
+    <string name="quick_settings_theme_tile_color_spotifygreen">Spotify Зелёный</string>
+    <string name="quick_settings_theme_tile_color_starbucksgreen">Starbucks Зелёный</string>
+    <string name="quick_settings_theme_tile_color_twitchpurple">Twitch Фиолетовый</string>
+    <string name="quick_settings_theme_tile_color_twitterblue">Twitter Синий</string>
+    <string name="quick_settings_theme_tile_color_xboxgreen">Xbox Зелёный</string>
+    <string name="quick_settings_theme_tile_color_xiaomiorange">Xiaomi Оранжевый</string>
+
+    <!-- Navbar arrow keys -->
+    <string name="navigation_bar_accessibility_dpad_left">Cursor left</string>
+    <string name="navigation_bar_accessibility_dpad_right">Cursor right</string>
+
+    <string name="app_picker_dialog_title">Select an app</string>
+
+    <string name="recents_app_killed">App killed</string>
+    <string name="nope_cant_kill">Launcher cannot be killed</string>
+
+    <!-- Sync QS Tile -->
+    <string name="quick_settings_sync_label">Синхронизация</string>
+    <string name="accessibility_quick_settings_sync_off">Синхронизация откл.</string>
+    <string name="accessibility_quick_settings_sync_on">Синхронизация вкл.</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Синхронизация отключена</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Синхронизация включена</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Сменить SIM-карту для передачи данных</string>
+    <string name="qs_data_switch_toast_0">В настоящее время SIM-карта не вставлена</string>
+    <string name="qs_data_switch_toast_1">В настоящее время вставлена только одна SIM-карта</string>
+    <string name="qs_data_switch_changed_1">Используется SIM 1 для передачи данных.</string>
+    <string name="qs_data_switch_changed_2">Используется SIM 2 для передачи данных.</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_not_enabled">Игровой режим отключен в настройках</string>
+    <string name="quick_settings_gaming_mode_label">Игровой режим</string>
+    <!-- Content description of the Gaming mode tile in quick settings when disabled (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_gaming_mode_disabled">Игровой режим выключен.</string>
+    <!-- Content description of the Gaming mode tile in quick settings when enabled (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_gaming_mode_enabled">Игровой режим включен.</string>
+
+    <!-- Ambient Display Pixel-Like string -->
+    <string name="ambientmusic_songinfo">%s в исполнении %s</string>
+
+    <!-- Screen Stabilization -->
+    <string name="quick_settings_stabilization_label">Стабилизация экрана</string>
+    <string name="quick_settings_stabilization_off">Стабилизация отключена</string>
+    <string name="quick_settings_stabilization_on">Стабилизация включена</string>
+    <string name="low_label">Мин.</string>
+    <string name="high_label">Макс.</string>
+    <string name="stabilization_velocity_friction">Стабилизация прокрутки</string>
+    <string name="stabilization_velocity_amplitude">Скорость прокрутки</string>
+    <string name="stabilization_position_friction">Стабилизация положения</string>
+
+    <!-- Screen record -->
+    <string name="quick_settings_screen_record_label">Запись экрана</string>
+    <string name="quick_settings_screen_record_start">Начать</string>
+    <string name="quick_settings_screen_record_stop">Остановить</string>
+    <string name="screenrecord_description">Во время записи экрана, система Android может захватывать любую конфиденциальную информацию, которая видна на вашем экране или воспроизводится на вашем устройстве. В том числе: пароли, платежная информация, фотографии, сообщения и аудио.</string>
+    <string name="screenrecord_audio_title">Источник звука</string>
+    <string name="screenrecord_audio_summary">Настройка записи звука.</string>
+    <string name="screenrecord_audio_recording_internal">Системные</string>
+    <string name="screenrecord_audio_recording_microphone">Микрофон</string>
+    <string name="screenrecord_audio_recording_off">Отключено</string>
+    <string name="screenrecord_ongoing_screen_and_audio">Запись экрана и звука</string>
+    <string name="screenrecord_ongoing_screen_only">Запись экрана</string>
+    <string name="screenrecord_start">Начать</string>
+    <string name="screenrecord_start_label">Начать запись?</string>
+    <string name="screenrecord_taps_label">Показывать нажатия</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time">Dash зарядка (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> до полной)</string>
+    <string name="keyguard_plugged_in_dash_charging">Dash зарядка</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a warp charger. Should match keyguard_plugged_in_warp_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_warp_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Warp зарядка (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> до полной)</string>
+    <string name="keyguard_plugged_in_warp_charging">Warp зарядка</string>
+
+</resources>
